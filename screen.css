@@ -2,3 +2,97 @@
 a.active {
     font-weight: bold;
 }
+
+nav.navbar {
+    background-color: #FFF8F5 !important;
+}
+
+nav.navbar .navbar-brand {
+    color: #B73D69;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: 'Fredoka One', cursive;
+}
+
+nav.navbar .navbar-brand:hover {
+    color: #B73D69 !important;
+}
+
+nav.navbar .nav-link {
+    color: black !important;
+}
+
+nav.navbar .nav-link:hover {
+    color: #B73D69 !important;
+    text-decoration: underline;
+}
+
+nav.navbar .btn-outline-success {
+    color: #B73D69;
+    border-color: #B73D69;
+}
+
+nav.navbar .btn-outline-success:hover {
+    background-color: #B73D69;
+    color: #ffffff;
+    border-color: #B73D69;
+}
+
+body {
+    background-color: #FFF8F5;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Fredoka One', cursive;
+    color: #B73D69;
+}
+
+h1 {
+    margin-top: 80px;
+    font-size: 90px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.main-content {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card {
+    max-width: 800px;
+    margin-bottom: 50px;
+    border-color: #B73D69;
+    background-color: #FFF8F5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-header {
+    background-color: #B73D69;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.card .btn-primary {
+    background-color: #B73D69;
+    border-color: #B73D69;
+}
+
+.card .btn-primary:hover {
+    background-color: #8A2A4E;
+    border-color: #8A2A4E;
+}
